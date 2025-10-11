@@ -10,6 +10,7 @@ Siga este passos para a instalação e configuração detalhada do Django Framew
 
 4.Instalar o Django Framework:
     ...\>    Pip install Django
+    ...\>    python -m django --version
     Versão:  5.2.7
 
 5.Preferencialmente,se pretender que o framework esteja o mais atualizado possível,com correção de bugs e melhorias:
