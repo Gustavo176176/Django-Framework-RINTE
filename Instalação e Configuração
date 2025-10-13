@@ -1,40 +1,45 @@
+🧩 Guia de Instalação e Configuração do Django Framework (Windows)
 Siga este passos para a instalação e configuração detalhada do Django Framework (Windows)
 
-1.Download da versão mais recente de Python em https://www.python.org/downloads/.
+    1.Download da versão mais recente de Python em https://www.python.org/downloads/.
+            ...\>  Marque a opção de "Add Python to PATH” durante a instalação.
 
-2.Instalação do ambiente de desenvolvimento Python:  
-    ...\>    python -m venv venv
+    2.Instalação do ambiente de desenvolvimento Python:  
+            ...\>    python -m venv venv
 
-3.Ativar o ambiente de desenvolvimento:
-    ...\>    venv\Scripts\activate.bat
+    3.Ativar o ambiente criado
+            ...\>    venv\Scripts\activate.bat
 
-4.Instalar o Django Framework:
-    ...\>    Pip install Django
-    ...\>    python -m django --version
-    Versão:  5.2.7
+    4.Instalar o Django Framework:
+            ...\>    Pip install Django
+            ...\>    python -m django --version
+            Versão:  5.2.7
 
-5.Preferencialmente,se pretender que o framework esteja o mais atualizado possível,com correção de bugs e melhorias:
-    ...\>    git clone https://github.com/django/django.git
+    5.Se pretender que o framework esteja o mais atualizado possível,com correção de bugs e melhorias(OPCIONAL):
+            ...\>    git clone https://github.com/django/django.git
 
-6.Ativar o Django Admin:
-    ...\> py -m pip install -e django\
+    6.Ativar o Django Admin:
+            ...\> py -m pip install -e django\
 
-7.Criar um projeto no Django Framework:
+    7.Criar um projeto no Django Framework:
 
-8.Crie um projeto RINTE_PROJECT:
-    ...\> django-admin startproject RINTE_PROJECT
+        7.1.Crie um projeto RINTE_PROJECT:
+            ...\> django-admin startproject RINTE_PROJECT
 
-9.Entre na pasta do projeto criado:
-    ...\> cd RINTE_PROJECT
+        7.2.Entre na pasta do projeto criado:
+            ...\> cd RINTE_PROJECT
 
-10.Crie um admin:
-    ...\> python manage.py migrate
-    ...\> python manage.py createsuperuser 
+        7.3.Crie um admin:
+            ...\> python manage.py migrate
+            ...\> python manage.py createsuperuser 
+
     Configure com os seus dados pessoais e deverá ser apresentada a seguinte mensagem " Superuser created successfully."
 
 11.Iniciar o servidor:
     ...\> python manage.py runserver
     Aceda a http://127.0.0.1:8000/admin/ com os seus dados pessoais anteriormente configurados.
+
+
 
 
 
