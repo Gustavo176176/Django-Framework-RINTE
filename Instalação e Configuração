@@ -30,7 +30,7 @@ Siga este passos para a instalação e configuração detalhada do Django Framew
             ...\> cd RINTE_PROJECT
 
         7.3.Crie um admin:
-            ...\> python manage.py migrate
+            ...\> python manage.py migrate (atualizar informações da Base de Dados)
             ...\> python manage.py createsuperuser 
 
     Configure com os seus dados pessoais e deverá ser apresentada a seguinte mensagem " Superuser created successfully."
